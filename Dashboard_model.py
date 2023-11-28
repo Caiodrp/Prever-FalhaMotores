@@ -6,6 +6,8 @@ import pickle
 import joblib
 import tempfile
 import os
+import numpy as np
+import io
 
 from io import BytesIO
 from pycaret.classification import load_model
@@ -31,18 +33,14 @@ def main():
 
     X = df.drop('failure_type', axis=1)
 
-    # Carregar os valores SHAP do arquivo .pkl
-    with open('shap_values.pkl', 'rb') as f:
-        shap_values = pickle.load(f)
+    # Carregar os valores SHAP do arquivo .npz
+    response = requests.get('https://github.com/Caiodrp/Prever-FalhaMotores/raw/main/shap_values.npz')
+    with np.load(io.BytesIO(response.content), allow_pickle=True) as data:
+        shap_values = [data[key] for key in data.keys()]
 
     class_names = ['Heat Dissipation Failure', 'No Failure', 'Overstrain Failure', 'Power Failure', 'Random Failures', 'Tool Wear Failure']
 
     st.subheader("Gráfico de Resumo SHAP")
-    
-    # definir os nomes das classes
-    class_names = ['Heat Dissipation Failure', 'No Failure', 'Overstrain Failure', 'Power Failure', 'Random Failures', 'Tool Wear Failure']
-
-    # plotar o gráfico de resumo
     shap.summary_plot(shap_values, X, class_names=class_names)
 
     st.subheader("Faça previsões com o seu próprio arquivo .csv")
