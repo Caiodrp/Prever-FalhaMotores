@@ -31,20 +31,26 @@ def main():
 
     X = df.drop('failure_type', axis=1)
 
-    # explainer = shap.Explainer(model)
-    # shap_values = explainer.shap_values(X)
+    # Carregar os valores SHAP do arquivo .pkl
+    with open('shap_values.pkl', 'rb') as f:
+        shap_values = pickle.load(f)
 
-    # class_names = ['Heat Dissipation Failure', 'No Failure', 'Overstrain Failure', 'Power Failure', 'Random Failures', 'Tool Wear Failure']
+    class_names = ['Heat Dissipation Failure', 'No Failure', 'Overstrain Failure', 'Power Failure', 'Random Failures', 'Tool Wear Failure']
 
-    # st.subheader("Gráfico de Resumo SHAP")
-    # st_shap(shap.summary_plot(shap_values, X, class_names=class_names))
+    st.subheader("Gráfico de Resumo SHAP")
+    
+    # definir os nomes das classes
+    class_names = ['Heat Dissipation Failure', 'No Failure', 'Overstrain Failure', 'Power Failure', 'Random Failures', 'Tool Wear Failure']
 
-    # st.subheader("Faça previsões com o seu próprio arquivo .csv")
-    # uploaded_file = st.file_uploader("Escolha um arquivo .csv", type="csv")
-    # if uploaded_file is not None:
-    #     input_df = pd.read_csv(uploaded_file)
-    #     predictions = model.predict(input_df)
-    #     st.write(predictions)
+    # plotar o gráfico de resumo
+    shap.summary_plot(shap_values, X, class_names=class_names)
+
+    st.subheader("Faça previsões com o seu próprio arquivo .csv")
+    uploaded_file = st.file_uploader("Escolha um arquivo .csv", type="csv")
+    if uploaded_file is not None:
+        input_df = pd.read_csv(uploaded_file)
+        predictions = model.predict(input_df)
+        st.write(predictions)
 
 if __name__ == "__main__":
     main()
