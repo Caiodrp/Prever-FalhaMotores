@@ -22,3 +22,603 @@
 2023-11-28 15:07:35,501:INFO:load_model(model_name=C:\Users\user\AppData\Local\Temp\tmpn2g4zjt9.pkl, platform=None, authentication=None, verbose=True)
 2023-11-28 15:09:51,413:INFO:Initializing load_model()
 2023-11-28 15:09:51,414:INFO:load_model(model_name=C:\Users\user\AppData\Local\Temp\tmp_8sggbk3.pkl, platform=None, authentication=None, verbose=True)
+2023-11-28 16:47:36,415:INFO:Initializing predict_model()
+2023-11-28 16:47:36,416:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A699930>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938D20280>)
+2023-11-28 16:47:36,416:INFO:Checking exceptions
+2023-11-28 16:47:36,416:INFO:Preloading libraries
+2023-11-28 16:47:36,416:INFO:Set up data.
+2023-11-28 16:47:36,427:INFO:Set up index.
+2023-11-28 16:48:05,472:INFO:Initializing predict_model()
+2023-11-28 16:48:05,472:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012938E9EC50>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938D0BD00>)
+2023-11-28 16:48:05,473:INFO:Checking exceptions
+2023-11-28 16:48:05,473:INFO:Preloading libraries
+2023-11-28 16:48:05,473:INFO:Set up data.
+2023-11-28 16:48:05,485:INFO:Set up index.
+2023-11-28 16:52:01,178:INFO:Initializing predict_model()
+2023-11-28 16:52:01,178:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A69B850>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938F2DC60>)
+2023-11-28 16:52:01,178:INFO:Checking exceptions
+2023-11-28 16:52:01,178:INFO:Preloading libraries
+2023-11-28 16:52:01,179:INFO:Set up data.
+2023-11-28 16:52:01,193:INFO:Set up index.
+2023-11-28 16:59:40,214:INFO:Initializing predict_model()
+2023-11-28 16:59:40,214:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A65E680>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938DCB520>)
+2023-11-28 16:59:40,215:INFO:Checking exceptions
+2023-11-28 16:59:40,215:INFO:Preloading libraries
+2023-11-28 16:59:40,215:INFO:Set up data.
+2023-11-28 16:59:40,227:INFO:Set up index.
+2023-11-28 17:01:09,962:INFO:Initializing predict_model()
+2023-11-28 17:01:09,962:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293659C7C0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938D0BD00>)
+2023-11-28 17:01:09,962:INFO:Checking exceptions
+2023-11-28 17:01:09,962:INFO:Preloading libraries
+2023-11-28 17:01:09,963:INFO:Set up data.
+2023-11-28 17:01:09,974:INFO:Set up index.
+2023-11-28 17:01:12,508:INFO:Initializing predict_model()
+2023-11-28 17:01:12,509:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A69B850>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938F2DC60>)
+2023-11-28 17:01:12,509:INFO:Checking exceptions
+2023-11-28 17:01:12,509:INFO:Preloading libraries
+2023-11-28 17:01:12,509:INFO:Set up data.
+2023-11-28 17:01:12,521:INFO:Set up index.
+2023-11-28 17:05:21,778:INFO:Initializing predict_model()
+2023-11-28 17:05:21,778:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A65E680>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293902A8C0>)
+2023-11-28 17:05:21,778:INFO:Checking exceptions
+2023-11-28 17:05:21,778:INFO:Preloading libraries
+2023-11-28 17:05:21,779:INFO:Set up data.
+2023-11-28 17:05:21,788:INFO:Set up index.
+2023-11-28 17:05:46,907:INFO:Initializing predict_model()
+2023-11-28 17:05:46,907:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012936687BB0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012939023BE0>)
+2023-11-28 17:05:46,907:INFO:Checking exceptions
+2023-11-28 17:05:46,907:INFO:Preloading libraries
+2023-11-28 17:05:46,908:INFO:Set up data.
+2023-11-28 17:05:46,918:INFO:Set up index.
+2023-11-28 17:07:10,863:INFO:Initializing predict_model()
+2023-11-28 17:07:10,863:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012938FA5BD0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938DEFBE0>)
+2023-11-28 17:07:10,863:INFO:Checking exceptions
+2023-11-28 17:07:10,864:INFO:Preloading libraries
+2023-11-28 17:07:10,864:INFO:Set up data.
+2023-11-28 17:07:10,877:INFO:Set up index.
+2023-11-28 17:07:25,143:INFO:Initializing predict_model()
+2023-11-28 17:07:25,143:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A317820>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293A2EF5B0>)
+2023-11-28 17:07:25,143:INFO:Checking exceptions
+2023-11-28 17:07:25,143:INFO:Preloading libraries
+2023-11-28 17:07:25,144:INFO:Set up data.
+2023-11-28 17:07:25,156:INFO:Set up index.
+2023-11-28 17:07:35,947:INFO:Initializing predict_model()
+2023-11-28 17:07:35,947:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A5E8AF0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293A2EF7F0>)
+2023-11-28 17:07:35,948:INFO:Checking exceptions
+2023-11-28 17:07:35,948:INFO:Preloading libraries
+2023-11-28 17:07:35,948:INFO:Set up data.
+2023-11-28 17:07:35,959:INFO:Set up index.
+2023-11-28 17:09:59,156:INFO:Initializing predict_model()
+2023-11-28 17:09:59,156:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012938E03430>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000129370C52D0>)
+2023-11-28 17:09:59,156:INFO:Checking exceptions
+2023-11-28 17:09:59,156:INFO:Preloading libraries
+2023-11-28 17:09:59,157:INFO:Set up data.
+2023-11-28 17:09:59,173:INFO:Set up index.
+2023-11-28 17:10:16,589:INFO:Initializing predict_model()
+2023-11-28 17:10:16,590:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000129370923E0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001292BB19090>)
+2023-11-28 17:10:16,590:INFO:Checking exceptions
+2023-11-28 17:10:16,590:INFO:Preloading libraries
+2023-11-28 17:10:16,590:INFO:Set up data.
+2023-11-28 17:10:16,604:INFO:Set up index.
+2023-11-28 17:10:40,394:INFO:Initializing predict_model()
+2023-11-28 17:10:40,395:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012938FF3D90>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938DCB520>)
+2023-11-28 17:10:40,395:INFO:Checking exceptions
+2023-11-28 17:10:40,395:INFO:Preloading libraries
+2023-11-28 17:10:40,395:INFO:Set up data.
+2023-11-28 17:10:40,407:INFO:Set up index.
+2023-11-28 17:11:01,768:INFO:Initializing predict_model()
+2023-11-28 17:11:01,769:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A314BB0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293A2ED2D0>)
+2023-11-28 17:11:01,769:INFO:Checking exceptions
+2023-11-28 17:11:01,769:INFO:Preloading libraries
+2023-11-28 17:11:01,769:INFO:Set up data.
+2023-11-28 17:11:01,782:INFO:Set up index.
+2023-11-28 17:15:33,317:INFO:Initializing predict_model()
+2023-11-28 17:15:33,317:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A65E680>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293675C040>)
+2023-11-28 17:15:33,317:INFO:Checking exceptions
+2023-11-28 17:15:33,318:INFO:Preloading libraries
+2023-11-28 17:15:33,318:INFO:Set up data.
+2023-11-28 17:15:33,333:INFO:Set up index.
+2023-11-28 17:16:19,799:INFO:Initializing predict_model()
+2023-11-28 17:16:19,799:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A314D90>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293A2EE170>)
+2023-11-28 17:16:19,799:INFO:Checking exceptions
+2023-11-28 17:16:19,799:INFO:Preloading libraries
+2023-11-28 17:16:19,799:INFO:Set up data.
+2023-11-28 17:16:19,811:INFO:Set up index.
+2023-11-28 17:18:44,416:INFO:Initializing predict_model()
+2023-11-28 17:18:44,416:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A3173D0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293902A170>)
+2023-11-28 17:18:44,417:INFO:Checking exceptions
+2023-11-28 17:18:44,417:INFO:Preloading libraries
+2023-11-28 17:18:44,417:INFO:Set up data.
+2023-11-28 17:18:44,427:INFO:Set up index.
+2023-11-28 17:18:46,837:INFO:Initializing predict_model()
+2023-11-28 17:18:46,837:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012939133D60>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293675C040>)
+2023-11-28 17:18:46,837:INFO:Checking exceptions
+2023-11-28 17:18:46,837:INFO:Preloading libraries
+2023-11-28 17:18:46,837:INFO:Set up data.
+2023-11-28 17:18:46,848:INFO:Set up index.
+2023-11-28 17:19:24,017:INFO:Initializing predict_model()
+2023-11-28 17:19:24,017:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012939132E30>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938F876D0>)
+2023-11-28 17:19:24,017:INFO:Checking exceptions
+2023-11-28 17:19:24,017:INFO:Preloading libraries
+2023-11-28 17:19:24,018:INFO:Set up data.
+2023-11-28 17:19:24,028:INFO:Set up index.
+2023-11-28 17:19:27,403:INFO:Initializing predict_model()
+2023-11-28 17:19:27,403:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000129391326B0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293675C040>)
+2023-11-28 17:19:27,403:INFO:Checking exceptions
+2023-11-28 17:19:27,403:INFO:Preloading libraries
+2023-11-28 17:19:27,404:INFO:Set up data.
+2023-11-28 17:19:27,415:INFO:Set up index.
+2023-11-28 17:21:22,824:INFO:Initializing predict_model()
+2023-11-28 17:21:22,824:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012938CE7E20>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938DCB250>)
+2023-11-28 17:21:22,824:INFO:Checking exceptions
+2023-11-28 17:21:22,824:INFO:Preloading libraries
+2023-11-28 17:21:22,825:INFO:Set up data.
+2023-11-28 17:21:22,851:INFO:Set up index.
+2023-11-28 17:23:30,329:INFO:Initializing predict_model()
+2023-11-28 17:23:30,330:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x00000129391301C0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293902AC20>)
+2023-11-28 17:23:30,330:INFO:Checking exceptions
+2023-11-28 17:23:30,330:INFO:Preloading libraries
+2023-11-28 17:23:30,330:INFO:Set up data.
+2023-11-28 17:23:30,363:INFO:Set up index.
+2023-11-28 17:25:22,973:INFO:Initializing predict_model()
+2023-11-28 17:25:22,973:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A698430>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938DEFBE0>)
+2023-11-28 17:25:22,974:INFO:Checking exceptions
+2023-11-28 17:25:22,974:INFO:Preloading libraries
+2023-11-28 17:25:22,974:INFO:Set up data.
+2023-11-28 17:25:22,992:INFO:Set up index.
+2023-11-28 17:25:33,827:INFO:Initializing predict_model()
+2023-11-28 17:25:33,827:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012939131F30>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293A2EF6D0>)
+2023-11-28 17:25:33,827:INFO:Checking exceptions
+2023-11-28 17:25:33,828:INFO:Preloading libraries
+2023-11-28 17:25:33,828:INFO:Set up data.
+2023-11-28 17:25:33,848:INFO:Set up index.
+2023-11-28 17:27:04,982:INFO:Initializing predict_model()
+2023-11-28 17:27:04,983:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012939133730>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012938F2DC60>)
+2023-11-28 17:27:04,983:INFO:Checking exceptions
+2023-11-28 17:27:04,983:INFO:Preloading libraries
+2023-11-28 17:27:04,983:INFO:Set up data.
+2023-11-28 17:27:04,996:INFO:Set up index.
+2023-11-28 17:29:10,829:INFO:Initializing predict_model()
+2023-11-28 17:29:10,830:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012938FA7760>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293902A170>)
+2023-11-28 17:29:10,830:INFO:Checking exceptions
+2023-11-28 17:29:10,830:INFO:Preloading libraries
+2023-11-28 17:29:10,830:INFO:Set up data.
+2023-11-28 17:29:10,841:INFO:Set up index.
+2023-11-28 17:29:58,159:INFO:Initializing predict_model()
+2023-11-28 17:29:58,160:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012937091690>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293A2EF7F0>)
+2023-11-28 17:29:58,160:INFO:Checking exceptions
+2023-11-28 17:29:58,160:INFO:Preloading libraries
+2023-11-28 17:29:58,161:INFO:Set up data.
+2023-11-28 17:29:58,190:INFO:Set up index.
+2023-11-28 17:48:14,146:INFO:Initializing predict_model()
+2023-11-28 17:48:14,147:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000001293A315270>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001293A2ECCA0>)
+2023-11-28 17:48:14,147:INFO:Checking exceptions
+2023-11-28 17:48:14,147:INFO:Preloading libraries
+2023-11-28 17:48:14,147:INFO:Set up data.
+2023-11-28 17:48:14,163:INFO:Set up index.
+2023-11-28 17:48:21,303:INFO:Initializing predict_model()
+2023-11-28 17:48:21,303:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000012939132020>, estimator=Pipeline(memory=FastMemory(location=C:\Users\user\AppData\Local\Temp\joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['air_temperature_k',
+                                             'process_temperature_k',
+                                             'rotational_speed_rpm',
+                                             'torque_nm', 'tool_wear_min',
+                                             'min_processo', 'type_H', 'type_L',
+                                             'type_M'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', LGBMClassifier(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000012935A6B2E0>)
+2023-11-28 17:48:21,303:INFO:Checking exceptions
+2023-11-28 17:48:21,304:INFO:Preloading libraries
+2023-11-28 17:48:21,304:INFO:Set up data.
+2023-11-28 17:48:21,315:INFO:Set up index.
