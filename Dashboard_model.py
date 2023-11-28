@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 import joblib
 import plotly.express as px
+import io
 
 from io import BytesIO
 from pycaret.classification import predict_model
