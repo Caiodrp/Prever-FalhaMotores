@@ -1,0 +1,24 @@
+2023-11-28 14:52:02,683:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-28 14:52:02,684:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-28 14:52:02,684:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-28 14:52:02,684:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-28 14:52:09,771:INFO:Initializing load_model()
+2023-11-28 14:52:09,773:INFO:load_model(model_name=https://github.com/Caiodrp/Prever-FalhaMotores/raw/main/lgbm.pkl, platform=None, authentication=None, verbose=True)
+2023-11-28 14:55:25,649:INFO:Initializing load_model()
+2023-11-28 14:55:25,649:INFO:load_model(model_name=<_io.BytesIO object at 0x0000012936723380>, platform=None, authentication=None, verbose=True)
+2023-11-28 14:57:04,607:INFO:Initializing load_model()
+2023-11-28 14:57:04,608:INFO:load_model(model_name=<_io.BytesIO object at 0x0000012938E2FD30>, platform=None, authentication=None, verbose=True)
+2023-11-28 14:57:16,660:INFO:Initializing load_model()
+2023-11-28 14:57:16,660:INFO:load_model(model_name=<_io.BytesIO object at 0x0000012938DD55D0>, platform=None, authentication=None, verbose=True)
+2023-11-28 15:04:01,739:INFO:Initializing load_model()
+2023-11-28 15:04:01,739:INFO:load_model(model_name=<_io.BytesIO object at 0x00000129366F0770>, platform=None, authentication=None, verbose=True)
+2023-11-28 15:06:03,157:INFO:Initializing load_model()
+2023-11-28 15:06:03,157:INFO:load_model(model_name=C:\Users\user\AppData\Local\Temp\tmpct6ldxa3.pkl, platform=None, authentication=None, verbose=True)
+2023-11-28 15:07:35,501:INFO:Initializing load_model()
+2023-11-28 15:07:35,501:INFO:load_model(model_name=C:\Users\user\AppData\Local\Temp\tmpn2g4zjt9.pkl, platform=None, authentication=None, verbose=True)
+2023-11-28 15:09:51,413:INFO:Initializing load_model()
+2023-11-28 15:09:51,414:INFO:load_model(model_name=C:\Users\user\AppData\Local\Temp\tmp_8sggbk3.pkl, platform=None, authentication=None, verbose=True)
